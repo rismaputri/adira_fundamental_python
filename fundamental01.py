@@ -97,3 +97,19 @@ print (customer1_alamat['City'])
 print (customer1_alamat['Province'])
 print (customer1_alamat['Zip Code'])
 print (customer1_alamat['negara'])
+
+
+#catch customer 1 dengan array
+print(cust[0])
+
+#simpan customer di array
+# customer_by_name = ditc() spt ini bisa
+cus_salary_by_name = {}
+cus_salary_by_name[customer1_nama] = customer1_gaji
+cus_salary_by_name[customer2_nama] = customer2_gaji
+cus_salary_by_name[customer3_nama] = customer3_gaji
+
+print('Alamat customer by name')
+for name in cus_salary_by_name:
+    gaji = cus_salary_by_name[name]
+    print(f'{name} gaji = {gaji}')
