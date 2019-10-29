@@ -79,3 +79,4 @@ customerX = CustomerBandel('INDAx', WANITA, 1500000, True, NON_FIX,{})
 print(customerX)
 
 
+
