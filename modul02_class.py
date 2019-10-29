@@ -66,3 +66,16 @@ customer3 = Customer ('INDA', WANITA, 9000000, True, FIX,
 print(customer1)
 customer1.check_status()
 customer1.check_gaji()
+
+
+#INHERITANCE DAN POLYMORPISH
+class CustomerBandel(Customer):
+    def __str__(self):
+        return f'Bandel {Customer.__str__(self)}'
+    def __repr__(self):
+        return f'Bandel {Customer.__repr__(self)}'
+
+customerX = CustomerBandel('INDAx', WANITA, 1500000, True, NON_FIX,{})
+print(customerX)
+
+
