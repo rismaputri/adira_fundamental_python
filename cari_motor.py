@@ -3,7 +3,7 @@ class Customer:
         self.nama = nama
         self.gaji = gaji
 
-    def check_gaji(self):
+    def cari_motor(self):
         if self.gaji <= 3000000:
             hasil = '< 3Jt, Motor Beat'
         elif self.gaji > 3000000 and self.gaji <= 6000000:
